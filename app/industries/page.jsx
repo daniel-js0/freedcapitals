@@ -24,7 +24,7 @@ const Industries = () => {
             </div>
         </div>
         <div className=''>
-                <h1>Energy & Natural Resources</h1>
+                <h1 className=' font-semibold text-2xl text-[#39B7B3]'>Energy & Natural Resources</h1>
 
                 <p>Alternative energy is important for society, but their limited supply is a challenge. Sustainable practices preserve resources for the future and balance economics with the environment. Innovative methods reduce waste and pollution for a sustainable future.</p>
         </div>
