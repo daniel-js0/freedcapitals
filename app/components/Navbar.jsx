@@ -6,32 +6,32 @@ const Navbar = () => {
   return (
     <main>
 
-        <div>
+        <div className='flex justify-evenly mt-2'>
             <div className='flex'>
-            <h1>FREED CAPITALS</h1>
+            <h1 className='mt-1'>FREED CAPITALS</h1>
             <Image src="/Logo.png" width={30} height={10} quality={100} alt="freedcapital logo" placeholder="empty"
-                   className=''  />      
+                   className='ml-2'  />      
             </div>
 
             <div>
                 <Link href="/" >
                     About
                 </Link>
-                <Link href="/" className='ml-1'>
+                <Link href="/" className='ml-6'>
                     Industries
                 </Link>
-                <Link href="/" className='ml-1'>
+                <Link href="/" className='ml-6'>
                     Solutions
                 </Link>
-                <Link href="/" className='ml-1'>
+                <Link href="/" className='ml-6'>
                     Insight
                 </Link>
-                <Link href="/" className='ml-1'>
+                <Link href="/" className='ml-6'>
                     Careers
                 </Link>
             </div>
 
-            <button>
+            <button className='h-8 w-24 text-[#39B7B380] border border-[#39B7B380] rounded-3xl'>
                 Contact
             </button>
 
