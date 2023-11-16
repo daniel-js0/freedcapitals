@@ -15,8 +15,8 @@ const Navbar = () => {
     <main>
 
         <div className='flex justify-between lg:justify-evenly w-screen h-12 lg:h-16 shadow-lg'>
-            <div className='flex lg:hidden w-8 h-8 bg-[#39B7B3] rounded-full ml-5 mt-2'>
-                <svg className=' mx-auto mt-1' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className='flex lg:hidden w-10 h-10 bg-[#52dbd780] rounded-full ml-5 mt-0.5'>
+                <svg className=' mx-auto mt-2' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <path d="M3 7H21" stroke="#39B7B3" stroke-width="1.5" stroke-linecap="round"/>
                     <path d="M3 12H21H3Z" fill="#39B7B3"/>
                     <path d="M3 12H21" stroke="#39B7B3" stroke-width="1.5" stroke-linecap="round"/>
@@ -25,9 +25,9 @@ const Navbar = () => {
                 </svg>
             </div>
             <div className='flex mr-5'>
-            <h1 className='lg:mt-3 mt-3 text-2xl tracking-widest font-medium'>FREED CAPITALS</h1>
+            <h1 className='lg:mt-3 mt-[0.4rem] text-2xl tracking-widest font-medium'>FREED CAPITALS</h1>
             <Image src="/Logo.png" width={27} height={10} quality={100} alt="freedcapital logo" placeholder="empty"
-                   className='ml-2 h-7 lg:mt-4 mt-2'  />      
+                   className='lg:ml-2 ml-1 h-7 lg:mt-4 mt-[0.55rem]'  />      
             </div>
 
             <div className='hidden lg:flex mt-4'>
