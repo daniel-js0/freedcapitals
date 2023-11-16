@@ -1,13 +1,21 @@
+"use client"
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
 
 const Navbar = () => {
+              const [hover, setHover] = useState("") 
+
+              function handleHover (tab) {
+                setHover(tab)
+              }
+             
+
   return (
     <main>
 
         <div className='flex justify-between lg:justify-evenly w-screen h-12 lg:h-16 shadow-lg'>
-            <div className='flex lg:hidden w-8 h-8 bg-[#39B7B380] rounded-full ml-5 mt-2'>
+            <div className='flex lg:hidden w-8 h-8 bg-[#39B7B3] rounded-full ml-5 mt-2'>
                 <svg className=' mx-auto mt-1' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <path d="M3 7H21" stroke="#39B7B3" stroke-width="1.5" stroke-linecap="round"/>
                     <path d="M3 12H21H3Z" fill="#39B7B3"/>
@@ -22,25 +30,53 @@ const Navbar = () => {
                    className='ml-2 h-7 lg:mt-4 mt-2'  />      
             </div>
 
-            <div className='hidden lg:flex mt-5'>
-                <Link href="/" className=' text-lg font-light text-decoration'>
-                    About
-                </Link>
-                <Link href="/" className='ml-16 text-lg font-light'>
-                    Industries
-                </Link>
-                <Link href="/" className='ml-16 text-lg font-light'>
-                    Solutions
-                </Link>
-                <Link href="/" className='ml-16 text-lg font-light'>
+            <div className='hidden lg:flex mt-4'>
+                <div className='flex flex-col'>
+                    <Link href="/" className=' text-lg font-light hover:text-[#39B7B3]' 
+                    onMouseEnter={() => handleHover('about')} onMouseLeave={() => handleHover('')}>
+                        About
+                    </Link>
+                    <div className={`h-[0.17rem]  bg-[#39B7B3] ${hover === "about" ? 'w-[2.9rem] delay-100 duration-500' : 'w-0 delay-100 duration-500'}`}></div>
+
+                </div>
+
+                <div className='flex flex-col'>
+                    <Link href="/" className='ml-16  text-lg font-light hover:text-[#39B7B3]' 
+                    onMouseEnter={() => handleHover('indust')} onMouseLeave={() => handleHover('')}>
+                        Industries
+                    </Link>
+                    <div className={`ml-16 h-[0.17rem]  bg-[#39B7B3] ${hover === "indust" ? 'w-[4.4rem] delay-100 duration-500' : 'w-0 delay-100 duration-500'}`}></div>
+
+                </div>
+                <div className='flex flex-col'>
+                    <Link href="/" className='ml-16  text-lg font-light hover:text-[#39B7B3]' 
+                    onMouseEnter={() => handleHover('sol')} onMouseLeave={() => handleHover('')}>
+                        Solutions
+                    </Link>
+                    <div className={`ml-16 h-[0.17rem]  bg-[#39B7B3] ${hover === "sol" ? 'w-[4.2rem] delay-100 duration-500' : 'w-0 delay-100 duration-500'}`}></div>
+
+                </div>
+                <div className='flex flex-col'>
+                    <Link href="/" className='ml-16  text-lg font-light hover:text-[#39B7B3]' 
+                    onMouseEnter={() => handleHover('ins')} onMouseLeave={() => handleHover('')}>
                     Insight
-                </Link>
-                <Link href="/" className='ml-16 text-lg font-light'>
+                    </Link>
+                    <div className={`ml-16 h-[0.17rem]  bg-[#39B7B3] ${hover === "ins" ? 'w-[3rem] delay-100 duration-500' : 'w-0 delay-100 duration-500'}`}></div>
+
+                </div>
+
+                <div className='flex flex-col'>
+                    <Link href="/" className='ml-16  text-lg font-light hover:text-[#39B7B3]' 
+                    onMouseEnter={() => handleHover('car')} onMouseLeave={() => handleHover('')}>
                     Careers
-                </Link>
+                    </Link>
+                    <div className={`ml-16 h-[0.17rem]  bg-[#39B7B3] ${hover === "car" ? 'w-[3.5rem] delay-100 duration-500' : 'w-0 delay-100 duration-500'}`}></div>
+
+                </div>
+              
             </div>
 
-            <button className='mt-4 hidden  lg:flex h-8 w-28 text-[#39B7B3] border border-[#39B7B3] rounded-3xl'>
+            <button className='mt-4 hidden  lg:flex h-8 w-28 hover:text-white hover:bg-[#39B7B3] hover:delay-200 hover:duration-700 text-[#39B7B3] border border-[#39B7B3] rounded-3xl'>
                 <p className='mx-auto mt-0.5 '>Contact</p>
             </button>
 
