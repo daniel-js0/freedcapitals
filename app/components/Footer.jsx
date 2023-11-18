@@ -73,7 +73,7 @@ const Footer = () => {
 
       
       {/* media query */}
-      <div className='flex  mx-auto justify-between w-[95%] '>
+      <div className='flex mt-8  mx-auto justify-between w-[95%] '>
           <div className='md:flex justify-between w-[43%] mt-8 ml-7 text-gray-600 hidden'>
               <p className='' >About</p>
               <p className='' >Industries</p>
@@ -102,6 +102,38 @@ const Footer = () => {
               </svg>
           </div>
 
+      </div>
+
+      <div className='h-[0.010rem]  mx-auto mt-12 w-[92%] bg-gray-600 md:flex hidden'></div>
+
+      <div className='mt-4 hidden md:flex mx-auto justify-between w-[92%]  mb-6'>
+                <div>
+                <p className=' text-center text-gray-600 md:flex hidden'>© 2023 Freed Capitals. All right reserved.</p>
+                </div>
+              
+                <div className=' md:flex hidden '>
+                    <h1 className=' text-2xl tracking-widest font-medium'>FREED CAPITALS</h1>
+                    <Image src="/Logo.png" width={27} height={10} quality={100} alt="freedcapital logo" placeholder="empty"
+                          className='lg:ml-2 ml-1 h-7 mt-1 '  />      
+               </div>
+
+              
+
+              <div className=' text-gray-700 md:flex md:flex-col hidden'>
+                  <div className='flex'>
+                    <svg className='text-[#39B7B3] mt-1 mr-2' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                    </svg>
+                    <p>House 6, PrincessAina Jegede Close, <br className='flex md:hidden' /> Ajao <br className='hidden md:flex'/> Estate. Lagos State.</p>
+                  </div>
+                  <div className='flex mt-5'>
+                    <svg className='text-[#39B7B3] mt-1 mr-2' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                    </svg>
+                  <p className=''>+234 - 814 - 111 - 6304</p>
+                  </div>
+              </div>
+      
       </div>
 
 
