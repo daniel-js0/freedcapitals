@@ -6,18 +6,18 @@ const Footer = () => {
    <main>
      <div className='w-screen'>
 
-      <h1 className=' text-center text-[1.35rem] font-bold'>Stay informed with up-to-date informaton on all things Freed Capitals.</h1>
+      <h1 className=' text-center text-[1.35rem] font-bold md:text-5xl md:font-semibold md:px-12 md:leading-snug'>Stay informed with up-to-date <br className='hidden md:flex' /> informaton on all things Freed Capitals.</h1>
 
-      <div className='w-[95%] mt-8 h-16 mx-auto flex justify-between rounded-lg bg-[#39B7B3]'>
-        <h2 className='my-auto ml-2 text-[0.85rem] font-semibold text-white '>Subscribe Newsletters</h2>
+      <div className='w-[95%] md:w-[70%] md:h-32 md:mt-14 mt-8 h-16 mx-auto flex justify-between rounded-lg bg-[#39B7B3]'>
+        <h2 className='my-auto ml-2 text-[0.85rem] font-semibold text-white md:text-3xl md:ml-16'>Subscribe Newsletters</h2>
 
-        <div className='relative h-12 w-[55%] mr-3 my-auto'>
+        <div className='relative h-12 w-[55%] md:h-20 mr-3 my-auto'>
           <input type="text" placeholder='Enter your email...'
-          className='h-12 w-[100%] my-auto rounded-md px-2 placeholder:text-xs' />
+          className='h-12 md:h-20  w-[100%] my-auto rounded-md px-2 placeholder:text-xs md:placeholder:text-xl' />
        
 
-          <button className='h-10 w-[43%] end-1 top-1 rounded-md bg-[#39B7B3] absolute'>
-            <p className='text-center text-xs text-white'>Subcribe Now</p>
+          <button className='h-10 md:h-16 md:top-2 w-[43%] end-1 top-1 rounded-md bg-[#39B7B3] absolute'>
+            <p className='text-center text-xs text-white md:text-xl'>Subcribe Now</p>
           </button>
         </div>
       </div>
