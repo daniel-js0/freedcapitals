@@ -27,7 +27,7 @@ const Navbar = () => {
             <div className='flex mr-5'>
             <h1 className='lg:mt-3 md:mt-4 mt-[0.4rem] text-2xl tracking-widest font-medium'>FREED CAPITALS</h1>
             <Image src="/Logo.png" width={27} height={10} quality={100} alt="freedcapital logo" placeholder="empty"
-                   className='lg:ml-2 ml-1 h-7 lg:mt-4 md:mt-5 mt-[0.55rem]'  />      
+                   className='lg:ml-4 ml-1 h-7 lg:mt-4 md:mt-5 mt-[0.55rem]'  />      
             </div>
 
             <div className='hidden lg:flex mt-4'>
