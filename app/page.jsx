@@ -11,10 +11,10 @@ export default function Home() {
           <div className="ml-7 h-44 w-[80%] bg-slate-5 relative z-30">
             <h1 className="lg:text-6xl text-3xl font-semibold text-center lg:px-[0.7rem] md:leading-snug lg:leading-snug lg:tracking-wide md:tracking-wide">Empowering Industries with Bespoke Solutions Tailored to their Needs </h1>
             <p className="lg:text-2xl text-lg  lg:font-light lg:tracking-wide lg:leading-relaxed text-gray-400 text-center mt-12  h-12 lg:w-[70%] mx-auto"> Our goal at Freed Capitals is to break free of norms, uncover new opportunities, and help create lasting solutions. </p>
-            <div className="lg:h-7 h-3 lg:w-[32%] w-[55%] bg-[#39B7B3] absolute top-6 start-16 lg:top-14 lg:start-4 -z-10"></div>
+            <div className="h-7 lg:w-[32%]  bg-[#39B7B3] hidden lg:flex absolute top-14 start-4 -z-10"></div>
             <div className="h-7 w-[21%] bg-[#39B7B3] hidden lg:flex absolute top-14 end-4 -z-10"></div>
-            <div className="lg:h-7 w-[24%] bg-[#39B7B3] absolute top-[8.3rem] start-[4.5rem] -z-10"></div>
-            <div className="lg:h-7 h-4 w-[25%] lg:w-[32%] bg-[#39B7B3] absolute top-[10.3rem] start-28 lg:top-[8.3rem] lg:end-[4.5rem] -z-10"></div>
+            <div className="h-7 w-[24%] bg-[#39B7B3] hidden lg:flex absolute top-[8.3rem] start-[4.5rem] -z-10"></div>
+            <div className="h-7 w-[32%] bg-[#39B7B3] hidden lg:flex absolute top-[8.3rem] end-[4.5rem] -z-10"></div>
           </div>
       </div>
       <div className="mt-5">
