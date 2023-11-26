@@ -36,7 +36,7 @@ export default function Home() {
         </div>
 
         <div className="w-[30%] h-[100%] bg-red-400">
-          <Image className=' w-[100%] h-[70%] mx-auto '  src="https://www.freedcapitals.com/Images/b-1.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+          <Image className=' w-[100%] h-[70%] mx-auto '  src="https://www.freedcapitals.com/Images/web-2.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
           <h1 className="text-center font-semibold tracking-wider mt-5 text-2xl">Empower individuals</h1>
           <p className="text-center mt-2 px-32 tracking-wide font-semibold text-gray-400 text-lg">We believe in ideas of our clients</p>
         </div>
