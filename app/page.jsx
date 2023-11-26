@@ -28,20 +28,26 @@ export default function Home() {
       <h1 className="text-center mt-4 font-semibold text-2xl  md:text-5xl md:leading-snug ">Choose the proven experts for all your service needs</h1>
      </div>
 
-     <div className="mt-12 w-[95%] h-[16rem] md:h-[30rem] mx-auto bg-slate-400 flex">
-        <div className="w-[30%] h-[100%] bg-red-400">
-          <Image className=' w-[100%] h-[70%] mx-auto '  src="https://www.freedcapitals.com/Images/b-1.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+     <div className="mt-28 w-[95%] h-[16rem] md:h-[30rem] mx-auto bg-slate-40 flex justify-around">
+        <div className="w-[30%] h-[100%]">
+          <Image className=' w-[100%] h-[70%] mx-auto '  src="https://www.freedcapitals.com/Images/web-1.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
           <h1 className="text-center font-semibold tracking-wider mt-5 text-2xl">Empower individuals</h1>
           <p className="text-center mt-2 px-32 tracking-wide font-semibold text-gray-400 text-lg">We believe in ideas of our clients</p>
         </div>
 
-        <div className="w-[30%] h-[100%] bg-red-400">
+        <div className="w-[30%] h-[100%] ">
           <Image className=' w-[100%] h-[70%] mx-auto '  src="https://www.freedcapitals.com/Images/web-2.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
-          <h1 className="text-center font-semibold tracking-wider mt-5 text-2xl">Empower individuals</h1>
-          <p className="text-center mt-2 px-32 tracking-wide font-semibold text-gray-400 text-lg">We believe in ideas of our clients</p>
+          <h1 className="text-center font-semibold tracking-wider mt-5 text-2xl">Customer-centered approach</h1>
+          <p className="text-center mt-2 px-20 tracking-wide font-semibold text-gray-400 text-lg">We believe our clients deserve the best hence our prompt attention</p>
         </div>
-
+       
+        <div className="w-[30%] h-[100%] ">
+          <Image className=' w-[100%] h-[70%] mx-auto '  src="https://www.freedcapitals.com/Images/web-3.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+          <h1 className="text-center font-semibold tracking-wider mt-5 text-2xl">Customer-centered approach</h1>
+          <p className="text-center mt-2 px-20 tracking-wide font-semibold text-gray-400 text-lg">We believe our clients deserve the best hence our prompt attention</p>
+        </div>
      </div>
+
     </main>
   )
 }
