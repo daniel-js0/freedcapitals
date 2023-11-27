@@ -31,7 +31,7 @@ export default function Home() {
      <div className="mt-28 w-[95%] h-[16rem] md:h-[30rem] mx-auto bg-slate-40 flex justify-around">
         <div className="w-[30%] h-[100%]">
           <Image className=' w-[100%] h-[70%] mx-auto '  src="https://www.freedcapitals.com/Images/web-1.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
-          <h1 className="text-center font-semibold tracking-wider mt-5 text-2xl">Empower individuals</h1>
+          <h1 className="text-center font-semibold tracking-wider mt-5  md:text-2xl">Empower individuals</h1>
           <p className="text-center mt-2 px-32 tracking-wide font-semibold text-gray-400 text-lg">We believe in ideas of our clients</p>
         </div>
 
@@ -47,6 +47,10 @@ export default function Home() {
           <p className="text-center mt-2 px-20 tracking-wide font-semibold text-gray-400 text-lg">We believe our clients deserve the best hence our prompt attention</p>
         </div>
      </div>
+
+    <div className="mt-28 h-12 w-32 mx-auto">
+      <button className=" h-12 w-28 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Know more</button>
+    </div> 
 
     </main>
   )
