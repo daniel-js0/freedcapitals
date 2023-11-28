@@ -42,7 +42,7 @@ export default function Home() {
         </div>
        
         <div className="w-[30%] h-[100%] ">
-          <Image className=' w-[100%] h-[70%] mx-auto '  src="https://www.freedcapitals.com/Images/web-3.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+          <Image className=' w-[100%] h-[69%] mx-auto '  src="https://www.freedcapitals.com/Images/web-3.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
           <h1 className="text-center font-semibold tracking-wider mt-5 text-2xl">Customer-centered approach</h1>
           <p className="text-center mt-2 px-20 tracking-wide font-semibold text-gray-400 text-lg">We believe our clients deserve the best hence our prompt attention</p>
         </div>
