@@ -32,7 +32,7 @@ export default function Home() {
         <div className="w-[30%] h-[100%]">
           <Image className=' w-[100%] h-[70%] mx-auto '  src="https://www.freedcapitals.com/Images/web-1.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
           <h1 className="text-center font-semibold tracking-wider md:mt-5  text-sm  md:text-2xl">Empower individuals</h1>
-          <p className="text-center mt-2 lg:px-32 tracking-wide font-semibold text-gray-400 text-xs md: text-lg">We believe in ideas of our clients</p>
+          <p className="text-center mt-2 lg:px-32 tracking-wide font-semibold text-gray-400 text-xs md:text-lg">We believe in ideas of our clients</p>
         </div>
 
         <div className="w-[30%] h-[100%] ">
@@ -44,7 +44,7 @@ export default function Home() {
         <div className="w-[30%] h-[100%] ">
           <Image className=' w-[100%] h-[69%] mx-auto '  src="https://www.freedcapitals.com/Images/web-3.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
           <h1 className="text-center font-semibold tracking-wider md:mt-5  text-sm  md:text-2xl">Customer-centered approach</h1>
-          <p className="text-center mt-2 lg:px-20 tracking-wide font-semibold text-gray-400 text-xs text-lg">We believe our clients deserve the best hence our prompt attention</p>
+          <p className="text-center mt-2 lg:px-20 tracking-wide font-semibold text-gray-400 text-xs md:text-lg">We believe our clients deserve the best hence our prompt attention</p>
         </div>
      </div>
 
