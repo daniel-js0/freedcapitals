@@ -51,6 +51,7 @@ export default function Home() {
     <div className="mt-28 h-12 w-32 mx-auto">
       <button className=" h-12 w-28 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Know more</button>
     </div> 
+    <div></div>
 
     </main>
   )
