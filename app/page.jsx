@@ -28,7 +28,7 @@ export default function Home() {
       <h1 className="text-center mt-4 font-semibold text-2xl  md:text-5xl md:leading-snug ">Choose the proven experts for all your service needs</h1>
      </div>
 
-     <div className="lg:mt-28 w-[95%] h-[16rem] md:h-[30rem] mx-auto bg-slate-40 flex justify-around">
+     <div className="lg:mt-24 w-[95%] h-[16rem] md:h-[30rem] mx-auto bg-slate-40 flex justify-around">
         <div className="w-[30%] h-[100%]">
           <Image className=' w-[100%] h-[70%] mx-auto '  src="https://www.freedcapitals.com/Images/web-1.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
           <h1 className="text-center font-semibold tracking-wider md:mt-5  text-sm  md:text-2xl">Empower individuals</h1>
@@ -51,7 +51,10 @@ export default function Home() {
     <div className="mt-28 h-12 w-32 mx-auto">
       <button className=" h-12 w-28 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Know more</button>
     </div> 
-    <div></div>
+
+    <Image className=' w-[10%] h-[6%] mx-auto '  src="https://www.freedcapitals.com/Images/c-hero.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+
+    
 
     </main>
   )
