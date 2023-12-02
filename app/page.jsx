@@ -52,8 +52,9 @@ export default function Home() {
       <button className=" h-12 w-28 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Know more</button>
     </div> 
 
-     <div className="w-[100%] h-[12rem] bg-[#39B7B3] ">
-
+     <div className="w-[100%] h-[12rem] bg-[#39B7B3] bg-opacity-25 ">
+      <h1>Here are some of the industries we feature.</h1>
+      <p>We collaborate with players in various industries for lasting achievement, spanning finance, healthcare, technology, and agriculture. Our objective is to achieve excellence and progress consistently.</p>
      <Image className=' w-[8%] h-[2rems] mx-auto '  src="https://www.freedcapitals.com/Images/c-hero.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
 
      </div>
