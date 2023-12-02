@@ -52,7 +52,11 @@ export default function Home() {
       <button className=" h-12 w-28 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Know more</button>
     </div> 
 
-    <Image className=' w-[10%] h-[6%] mx-auto '  src="https://www.freedcapitals.com/Images/c-hero.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+     <div className="w-[100%] h-[12rem] bg-[#39B7B3] ">
+
+     <Image className=' w-[8%] h-[2rems] mx-auto '  src="https://www.freedcapitals.com/Images/c-hero.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+
+     </div>
 
     
 
