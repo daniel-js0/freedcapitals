@@ -52,18 +52,18 @@ export default function Home() {
       <button className=" h-12 w-28 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Know more</button>
     </div> 
 
-     <div className="flex w-[100%] h-[32rem] bg-[#39B7B3] bg-opacity-25 ">
+     <div className="flex mt-5 w-[100%] h-[32rem] bg-[#39B7B3] bg-opacity-25 ">
       <div>
-      <h1 className="text-3xl font-bold">Here are some of the industries we feature.</h1>
+      <h1 className="text-3xl font-bold py-4 px-4">Here are some of the industries we feature.</h1>
       
-      <p>We collaborate with players in various industries for lasting achievement, spanning finance, healthcare, technology, and agriculture. Our objective is to achieve excellence and progress consistently.</p>
+      <p className="px-4 ">We collaborate with players in various industries for lasting achievement, spanning finance, healthcare, technology, and agriculture. Our objective is to achieve excellence and progress consistently.</p>
 
       </div>
      
       <div>
       <Image className=' w-[8%] h-[2rems] mx-auto '  src="https://www.freedcapitals.com/Images/pg2-bg-icon.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
      
-     <Image className=' w-[45%] h-[40rem]  '  src="https://www.freedcapitals.com/Images/c-hero.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+     <Image className=' w-[45%] h-[32rem] '  src="https://www.freedcapitals.com/Images/c-hero.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
       </div>
 
      </div>
