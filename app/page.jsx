@@ -54,16 +54,16 @@ export default function Home() {
 
      <div className="flex mt-5 w-[100%] h-[32rem] bg-[#39B7B3] bg-opacity-25 ">
       <div>
-      <h1 className="text-3xl font-bold py-4 px-4">Here are some of the industries we feature.</h1>
+      <h1 className="text-5xl font-bold mt-28 px-20 leading-snug">Here are some of the <br /> industries we feature.</h1>
       
-      <p className="px-4 ">We collaborate with players in various industries for lasting achievement, spanning finance, healthcare, technology, and agriculture. Our objective is to achieve excellence and progress consistently.</p>
+      <p className="px-20 text-xl font-semibold text-gray-400 ">We collaborate with players in various industries for lasting <br /> achievement, spanning finance, healthcare, technology, and <br /> agriculture. Our objective is to achieve excellence and progress <br /> consistently.</p>
 
       </div>
      
       <div>
       <Image className=' w-[8%] h-[2rems] mx-auto '  src="https://www.freedcapitals.com/Images/pg2-bg-icon.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
      
-     <Image className=' w-[45%] h-[32rem] '  src="https://www.freedcapitals.com/Images/c-hero.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+      <Image className=' w-[45%] h-[32rem] '  src="https://www.freedcapitals.com/Images/c-hero.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
       </div>
 
      </div>
