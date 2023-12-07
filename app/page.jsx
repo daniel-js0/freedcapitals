@@ -58,7 +58,7 @@ export default function Home() {
       
       <p className="px-20 text-xl mt-5 font-semibold text-gray-400 tracking-wider ">We collaborate with players in various industries for lasting <br /> achievement, spanning finance, healthcare, technology, and <br /> agriculture. Our objective is to achieve excellence and progress <br /> consistently.</p>
      
-      <div className="mt-5 h-12 w-60 ">
+      <div className="mt-5 h-12 w-56 ">
       <button className=" h-12 w-56 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Energy & Natural Resources</button>
       </div> 
       </div>
