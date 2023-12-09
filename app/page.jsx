@@ -57,20 +57,32 @@ export default function Home() {
       <h1 className="text-5xl font-bold mt-28 px-20 leading-snug tracking-wider">Here are some of the <br /> industries we feature.</h1>
       
       <p className="px-20 text-xl mt-5 font-semibold text-gray-400 tracking-wider ">We collaborate with players in various industries for lasting <br /> achievement, spanning finance, healthcare, technology, and <br /> agriculture. Our objective is to achieve excellence and progress <br /> consistently.</p>
-      <div className="flex">
-        <div className="mt-5 h-12 w-56 ">
-        <button className=" h-12 w-56 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Energy & Natural Resources</button>
+      
+      <div className=" ml-20 flex">
+        <div className="mt-5 h-14 w-56 ">
+        <button className=" h-14 w-56 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Energy & Natural Resources</button>
         </div> 
-Energy & Natural Resources
-
-
-        <div className="mt-5 h-12 w-56 ">
-        <button className=" h-12 w-56 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">IT & Media</button>
+        <div className="mt-5 ml-2 h-14 w-36  ">
+        <button className=" h-14 w-36 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">IT & Media</button>
         </div> 
-        <div className="mt-5 h-12 w-56 ">
-        <button className=" h-12 w-56 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Oil & Gas</button>
+        <div className="mt-5 ml-2 h-14 w-36  ">
+        <button className=" h-14 w-36 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Oil & Gas</button>
         </div> 
       </div>
+
+      <div className=" ml-20 flex">
+        <div className="mt-5 h-14 w-40 ">
+        <button className=" h-14 w-40 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Consumer Products</button>
+        </div> 
+        <div className="mt-5 ml-2 h-14 w-60  ">
+        <button className=" h-14 w-60 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">People & Organization</button>
+        </div> 
+        <div className="mt-5 ml-2 h-14 w-28  ">
+        <button className=" h-14 w-28 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Retail</button>
+        </div> 
+      </div>
+
+
       </div>
      
       <div>
