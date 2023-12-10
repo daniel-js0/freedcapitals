@@ -60,13 +60,13 @@ export default function Home() {
       
       <div className=" ml-20 flex">
         <div className="mt-5 h-14 w-56 ">
-        <button className=" h-14 w-56 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Energy & Natural Resources</button>
+        <button className=" h-14 w-56 border font-light rounded-2xl text-[#39B7B3] border-[#39B7B3] ">Energy & Natural Resources</button>
         </div> 
         <div className="mt-5 ml-2 h-14 w-36  ">
-        <button className=" h-14 w-36 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">IT & Media</button>
+        <button className=" h-14 w-36 border font-light  rounded-2xl text-[#39B7B3] border-[#39B7B3]">IT & Media</button>
         </div> 
         <div className="mt-5 ml-2 h-14 w-36  ">
-        <button className=" h-14 w-36 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Oil & Gas</button>
+        <button className=" h-14 w-36 border font-light  rounded-2xl text-[#39B7B3] border-[#39B7B3]">Oil & Gas</button>
         </div> 
       </div>
 
@@ -85,11 +85,11 @@ export default function Home() {
 
 
       <div className=" ml-20 flex">
-        <div className="mt-5 h-14 w-40 ">
-        <button className=" h-14 w-40 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Machinery & Equipment</button>
+        <div className="mt-5 h-14 w-64 ">
+        <button className=" h-14 w-64 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Machinery & Equipment</button>
         </div> 
-        <div className="mt-5 ml-2 h-14 w-60  ">
-        <button className=" h-14 w-60 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Logistics Operation</button>
+        <div className="mt-5 ml-2 h-14 w-52  ">
+        <button className=" h-14 w-52 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Logistics Operation</button>
         </div> 
         <div className="mt-5 ml-2 h-14 w-28  ">
         <button className=" h-14 w-28 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Real Estate</button>
