@@ -75,7 +75,7 @@ export default function Home() {
         <button className=" h-14 w-40 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Consumer Products</button>
         </div> 
         <div className="mt-5 ml-2 h-14 w-60  ">
-        <button className=" h-14 w-60 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">People & Organization</button>
+        <button className=" h-14 w-60 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">People and Organization</button>
         </div> 
         <div className="mt-5 ml-2 h-14 w-28  ">
         <button className=" h-14 w-28 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Retail</button>
