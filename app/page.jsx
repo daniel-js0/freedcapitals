@@ -23,7 +23,7 @@ export default function Home() {
      </div>
 
      <div className="h-0.5 w-14 mx-auto bg-slate-500 rounded-md mt-6"></div>
-     <div className="mt-2 h-32 w-[83%] md:w-[70%] mx-auto">
+     <div className="mt-2 h-32 w-[85%] md:w-[70%] mx-auto">
       <p className="text-center text-lg tracking-wide text-gray-400">Why Choose Us</p>
       <h1 className="text-center mt-4 font-semibold text-2xl  md:text-5xl md:leading-snug ">Choose the proven experts for all your service needs</h1>
      </div>
