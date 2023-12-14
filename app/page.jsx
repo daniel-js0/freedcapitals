@@ -107,6 +107,11 @@ export default function Home() {
 
      </div>
 
+     <div className="h-0.5 w-14 mx-auto bg-slate-500 rounded-md mt-6"></div>
+     <div className="mt-2 h-32 w-[85%] md:w-[70%] mx-auto">
+      <p className="text-center text-lg tracking-wide text-gray-400">Our Solutions</p>
+     </div>
+
     
 
     </main>
