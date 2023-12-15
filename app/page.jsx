@@ -109,7 +109,9 @@ export default function Home() {
 
      <div className="h-0.5 w-14 mx-auto bg-slate-500 rounded-md mt-6"></div>
      <div className="mt-2 h-32 w-[85%] md:w-[70%] mx-auto">
-      <p className="text-center text-lg tracking-wide text-gray-400">Our Solutions</p>
+      <p className="text-center text-xl tracking-wide text-gray-400">Our Solutions</p>
+      <h1 className="text-center mt-4 font-semibold text-2xl  md:text-5xl md:leading-snug ">Our goal is to simplify your life and facilitate your progress, one step at a time.</h1>
+
      </div>
 
     
