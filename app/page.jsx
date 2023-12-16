@@ -52,11 +52,11 @@ export default function Home() {
       <button className=" h-12 w-28 border font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Know more</button>
     </div> 
 
-     <div className="flex mt-5 w-[100%] h-[44rem] bg-[#39B7B3] bg-opacity-25 ">
+     <div className="md:flex mt-5 w-[100%] h-[44rem] bg-[#39B7B3] bg-opacity-25 ">
       <div>
-      <h1 className="text-5xl font-bold mt-28 px-20 leading-snug tracking-wider">Here are some of the <br /> industries we feature.</h1>
+      <h1 className="lg:text-5xl text-2xl font-bold mt-28 lg:px-20 px-4 py-2 text-center leading-snug tracking-wider">Here are some of the <br className="lg:flex hidden" /> industries we feature.</h1>
       
-      <p className="px-20 text-xl mt-5 font-semibold text-gray-400 tracking-wider ">We collaborate with players in various industries for lasting <br /> achievement, spanning finance, healthcare, technology, and <br /> agriculture. Our objective is to achieve excellence and progress <br /> consistently.</p>
+      <p className="lg:px-20 lg:text-xl text-sm lg:mt-5 px-4 py-2 text-center  font-semibold text-gray-400 tracking-wider ">We collaborate with players in various industries for lasting <br className="lg:flex hidden" /> achievement, spanning finance, healthcare, technology, and <br className="lg:flex hidden" /> agriculture. Our objective is to achieve excellence and progress <br className="lg:flex hidden" /> consistently.</p>
       
       <div className=" ml-20 flex">
         <div className="mt-5 h-14 w-56 ">
