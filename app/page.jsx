@@ -58,27 +58,27 @@ export default function Home() {
       
       <p className="lg:px-20 lg:text-xl text-sm lg:mt-5 px-4 py-2 text-center  font-semibold text-gray-400 tracking-wider ">We collaborate with players in various industries for lasting <br className="lg:flex hidden" /> achievement, spanning finance, healthcare, technology, and <br className="lg:flex hidden" /> agriculture. Our objective is to achieve excellence and progress <br className="lg:flex hidden" /> consistently.</p>
       
-      <div className=" ml-20 flex">
-        <div className="mt-5 h-14 w-56 ">
-        <button className=" h-14 w-56 border font-light rounded-2xl text-[#39B7B3] border-[#39B7B3] ">Energy & Natural Resources</button>
+      <div className=" ml-3 lg:ml-20 flex">
+        <div className="mt-5 ">
+        <button className=" lg:h-14 lg:w-56 h-10 w-44 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3] ">Energy & Natural Resources</button>
         </div> 
-        <div className="mt-5 ml-2 h-14 w-36  ">
-        <button className=" h-14 w-36 border font-light  rounded-2xl text-[#39B7B3] border-[#39B7B3]">IT & Media</button>
+        <div className="mt-5 ml-2  ">
+        <button className="lg:h-14 lg:w-56 h-10 w-20 border lg:text-base text-xs font-light rounded-xl  lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">IT & Media</button>
         </div> 
-        <div className="mt-5 ml-2 h-14 w-36  ">
-        <button className=" h-14 w-36 border font-light  rounded-2xl text-[#39B7B3] border-[#39B7B3]">Oil & Gas</button>
+        <div className="mt-5 ml-2  ">
+        <button className=" lg:h-14 lg:w-56 h-10 w-20 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">Oil & Gas</button>
         </div> 
       </div>
 
-      <div className=" ml-20 flex">
-        <div className="mt-5 h-14 w-40 ">
-        <button className=" h-14 w-40 border font-light  rounded-2xl text-[#39B7B3] border-[#39B7B3]">Consumer Products</button>
+      <div className=" ml-3 lg:ml-20 flex">
+        <div className="mt-5  ">
+        <button className=" lg:h-14 lg:w-56 h-10 w-28 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">Consumer Products</button>
         </div> 
-        <div className="mt-5 ml-2 h-14 w-60  ">
-        <button className=" h-14 w-60 border font-light  rounded-2xl text-[#39B7B3] border-[#39B7B3]">People and Organization</button>
+        <div className="mt-5 ml-2   ">
+        <button className=" lg:h-14 lg:w-56 h-10 w-36 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">People and Organization</button>
         </div> 
-        <div className="mt-5 ml-2 h-14 w-28  ">
-        <button className=" h-14 w-28 border font-light  rounded-2xl text-[#39B7B3] border-[#39B7B3]">Retail</button>
+        <div className="mt-5 ml-2 ">
+        <button className=" lg:h-14 lg:w-56 h-10 w-16 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">Retail</button>
         </div> 
       </div>
       
