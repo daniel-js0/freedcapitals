@@ -54,7 +54,7 @@ export default function Home() {
 
      <div className="md:flex mt-5 w-[100%] h-[44rem] bg-[#39B7B3] bg-opacity-25 ">
       <div>
-      <h1 className="lg:text-5xl text-2xl font-bold mt-28 lg:px-20 px-4 py-2 text-center leading-snug tracking-wider">Here are some of the <br className="lg:flex hidden" /> industries we feature.</h1>
+      <h1 className="lg:text-5xl text-2xl font-bold lg:mt-28 lg:px-20 px-4 py-6 text-center leading-snug tracking-wider">Here are some of the <br className="lg:flex hidden" /> industries we feature.</h1>
       
       <p className="lg:px-20 lg:text-xl text-sm lg:mt-5 px-4 py-2 text-center  font-semibold text-gray-400 tracking-wider ">We collaborate with players in various industries for lasting <br className="lg:flex hidden" /> achievement, spanning finance, healthcare, technology, and <br className="lg:flex hidden" /> agriculture. Our objective is to achieve excellence and progress <br className="lg:flex hidden" /> consistently.</p>
       
@@ -84,15 +84,15 @@ export default function Home() {
       
 
 
-      <div className=" ml-20 flex">
-        <div className="mt-5 h-14 w-64 ">
-        <button className=" h-14 w-64 border font-light  rounded-2xl text-[#39B7B3] border-[#39B7B3]">Machinery & Equipment</button>
+      <div className="ml-3 lg:ml-20 flex">
+        <div className="mt-5  ">
+        <button className=" lg:h-14 lg:w-64 h-10 w-36 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">Machinery & Equipment</button>
         </div> 
-        <div className="mt-5 ml-2 h-14 w-52  ">
-        <button className=" h-14 w-52 border font-light  rounded-2xl text-[#39B7B3] border-[#39B7B3]">Logistics Operation</button>
+        <div className="mt-5 ml-2  ">
+        <button className=" lg:h-14 lg:w-52 h-10 w-28 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">Logistics Operation</button>
         </div> 
-        <div className="mt-5 ml-2 h-14 w-28  ">
-        <button className=" h-14 w-28 border font-light  rounded-2xl text-[#39B7B3] border-[#39B7B3]">Real Estate</button>
+        <div className="mt-5 ml-2  ">
+        <button className=" lg:h-14 lg:w-28 h-10 w-20 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">Real Estate</button>
         </div> 
       </div>
 
@@ -100,9 +100,9 @@ export default function Home() {
       </div>
      
       <div>
-      <Image className=' w-[10%] h-[5rems] mx-auto absolute mt-24 '  src="https://www.freedcapitals.com/Images/pg2-bg-icon.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+      <Image className=' w-[10%] h-[5rems] mx-auto absolute mt-24 lg:flex hidden '  src="https://www.freedcapitals.com/Images/pg2-bg-icon.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
      
-      <Image className=' w-[28rem] h-[32rem] relative  mt-20'  src="https://www.freedcapitals.com/Images/c-hero.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+      <Image className=' lg:w-[28rem] lg:h-[32rem] w-[14rem] h-[16rem] mx-auto relative mt-4  lg:mt-20'  src="https://www.freedcapitals.com/Images/c-hero.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
       </div>
 
      </div>
