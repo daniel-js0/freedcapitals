@@ -60,25 +60,25 @@ export default function Home() {
       
       <div className=" ml-3 lg:ml-20 flex">
         <div className="mt-5 ">
-        <button className=" lg:h-14 lg:w-56 h-10 w-44 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3] ">Energy & Natural Resources</button>
+        <button className=" lg:h-14 lg:w-72 h-10 w-44 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3] ">Energy & Natural Resources</button>
         </div> 
         <div className="mt-5 ml-2  ">
-        <button className="lg:h-14 lg:w-56 h-10 w-20 border lg:text-base text-xs font-light rounded-xl  lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">IT & Media</button>
+        <button className="lg:h-14 lg:w-32 h-10 w-20 border lg:text-base text-xs font-light rounded-xl  lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">IT & Media</button>
         </div> 
         <div className="mt-5 ml-2  ">
-        <button className=" lg:h-14 lg:w-56 h-10 w-20 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">Oil & Gas</button>
+        <button className=" lg:h-14 lg:w-32 h-10 w-20 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">Oil & Gas</button>
         </div> 
       </div>
 
       <div className=" ml-3 lg:ml-20 flex">
         <div className="mt-5  ">
-        <button className=" lg:h-14 lg:w-56 h-10 w-28 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">Consumer Products</button>
+        <button className=" lg:h-14 lg:w-52 h-10 w-28 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">Consumer Products</button>
         </div> 
         <div className="mt-5 ml-2   ">
-        <button className=" lg:h-14 lg:w-56 h-10 w-36 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">People and Organization</button>
+        <button className=" lg:h-14 lg:w-52 h-10 w-36 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">People and Organization</button>
         </div> 
         <div className="mt-5 ml-2 ">
-        <button className=" lg:h-14 lg:w-56 h-10 w-16 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">Retail</button>
+        <button className=" lg:h-14 lg:w-28 h-10 w-16 border lg:text-base text-xs font-light rounded-xl lg:rounded-2xl text-[#39B7B3] border-[#39B7B3]">Retail</button>
         </div> 
       </div>
       
