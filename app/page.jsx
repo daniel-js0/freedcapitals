@@ -114,7 +114,8 @@ export default function Home() {
 
      </div>
 
-     <h1></h1>
+     <h1 className="font-bold text-3xl">Maritime/Shipping</h1>
+     <p>The naval industry supports global commerce through its vital shipping sector that transports goods and people over great distances. Technological advancements improve safety and sustainability, preserving the efficiency and integrity of marine transportation crucial to the world economy.</p>
     
 
     </main>
