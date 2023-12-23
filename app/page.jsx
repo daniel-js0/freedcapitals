@@ -108,16 +108,31 @@ export default function Home() {
      </div>
 
      <div className="h-0.5 w-12 mx-auto bg-slate-500 rounded-md mt-12"></div>
-     <div className="mt-3 h-32 w-[85%] md:w-[70%] mx-auto">
-      <p className="text-center text-xl tracking-wide text-gray-400">Our Solutions</p>
-      <h1 className="text-center mt-4 font-semibold text-2xl  md:text-5xl md:leading-snug ">Our goal is to simplify your life and facilitate your progress, one step at a time.</h1>
+     <p className="text-center text-2xl tracking-wider text-gray-400">Our Solutions</p>
+
+     <div className="mt-3 h-32 relative">
+      <Image className='w-56 h-72 absolute'  src="https://www.freedcapitals.com/Images/pg3-bg-icon.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+      <h1 className="text-center mt-6 font-semibold text-2xl px-36 md:text-5xl md:leading-snug ">Our goal is to simplify your life and facilitate your progress, one step at a time.</h1>
+
+      <div className="">
+        <div className="">
+          <Image className='w-56 h-72'  src="https://www.freedcapitals.com/Images/pg3-img-1.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+
+
+        </div>
+
+      </div>
+     </div>
+
+
+     <div className="hidden">
+      
+        <h1 className="font-bold text-3xl">Maritime/Shipping</h1>
+        <p>The naval industry supports global commerce through its vital shipping sector that transports goods and people over great distances. Technological advancements improve safety and sustainability, preserving the efficiency and integrity of marine transportation crucial to the world economy.</p>
 
      </div>
 
-     <h1 className="font-bold text-3xl">Maritime/Shipping</h1>
-     <p>The naval industry supports global commerce through its vital shipping sector that transports goods and people over great distances. Technological advancements improve safety and sustainability, preserving the efficiency and integrity of marine transportation crucial to the world economy.</p>
-    
-
     </main>
+    
   )
 }
