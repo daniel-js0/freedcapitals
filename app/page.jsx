@@ -122,15 +122,15 @@ export default function Home() {
           <p className="text-center mt-3 text-xl px-5 text-gray-400 ">The naval industry supports global commerce through its vital shipping sector that transports goods and people over great distances. Technological advancements improve safety and sustainability, preserving the efficiency and integrity of marine transportation crucial to the world economy.</p>
         </div>
 
-        <div>
+        <div className="w-[30%] h-[32rem] bg-red-500">
 
-          <div className="w-72 h-[34rem] bg-slate-600">
-            <Image className='w-[100%] h-72'  src="https://www.freedcapitals.com/Images/pg-3-img-2.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+          <div className="w-[100%] h-[24rem] bg-slate-600">
+            <Image className='w-[100%] h-[50%]'  src="https://www.freedcapitals.com/Images/pg-3-img-2.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
             <h1 className="font-bold text-3xl">Supply Chain</h1>
             <p>The naval industry supports global commerce through its vital shipping sector that transports goods and people over great distances. Technological advancements improve safety and sustainability, preserving the efficiency and integrity of marine transportation crucial to the world economy.</p>
           </div>
 
-          <div className="w-72 h-[34rem] bg-slate-600">
+          <div className="w-72 h-[34rem] mt-5 bg-slate-600">
             <Image className='w-[100%] h-72'  src="https://www.freedcapitals.com/Images/pg3-img-3.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
             <h1 className="font-bold text-3xl">Maritime/Shipping</h1>
             <p>The naval industry supports global commerce through its vital shipping sector that transports goods and people over great distances. Technological advancements improve safety and sustainability, preserving the efficiency and integrity of marine transportation crucial to the world economy.</p>
