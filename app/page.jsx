@@ -122,18 +122,18 @@ export default function Home() {
           <p className="text-center mt-3 text-xl px-5 text-gray-400 ">The naval industry supports global commerce through its vital shipping sector that transports goods and people over great distances. Technological advancements improve safety and sustainability, preserving the efficiency and integrity of marine transportation crucial to the world economy.</p>
         </div>
 
-        <div className="w-[30%] h-[32rem] bg-red-500">
+        <div className="w-[30%] h-[32rem]">
 
-          <div className="w-[100%] h-[24rem] bg-slate-600">
+          <div className="w-[100%] h-[24rem]  rounded-2xl shadow-2xl bg-slate-00">
             <Image className='w-[100%] h-[50%]'  src="https://www.freedcapitals.com/Images/pg-3-img-2.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
-            <h1 className="font-bold text-3xl">Supply Chain</h1>
-            <p>The naval industry supports global commerce through its vital shipping sector that transports goods and people over great distances. Technological advancements improve safety and sustainability, preserving the efficiency and integrity of marine transportation crucial to the world economy.</p>
+            <h1 className="font-bold text-center text-2xl">Supply Chain</h1>
+            <p className="text-center mt-3 text-xl px-5 text-gray-400">Optimizing supply chains is crucial for competing. It reduces costs and boosts efficiency, improving customer satisfaction.</p>
           </div>
 
-          <div className="w-72 h-[34rem] mt-5 bg-slate-600">
-            <Image className='w-[100%] h-72'  src="https://www.freedcapitals.com/Images/pg3-img-3.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
-            <h1 className="font-bold text-3xl">Maritime/Shipping</h1>
-            <p>The naval industry supports global commerce through its vital shipping sector that transports goods and people over great distances. Technological advancements improve safety and sustainability, preserving the efficiency and integrity of marine transportation crucial to the world economy.</p>
+          <div className="w-[100%] h-[24rem] mt-5 rounded-2xl shadow-2xl bg-slate-00">
+            <Image className='w-[100%] h-[50%]'  src="https://www.freedcapitals.com/Images/pg-3-img-2.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+            <h1 className="font-bold text-center text-2xl">IT & Cloud Management</h1>
+            <p className="text-center mt-3 text-xl px-5 text-gray-400">Effective cloud management strategies are essential for ensuring the smooth functioning of IT systems and improving overall business performance.</p>
           </div>
 
         </div>
