@@ -116,11 +116,12 @@ export default function Home() {
 
        <div className="flex justify-evenly mt-16 w-[100%] h-[50rem] bg-slate-00">
 
-        <div className="w-[30%] h-[37rem] mr-28 rounded-2xl shadow-2xl bg-slate-00">
-          <Image className='w-[100%] h-76'  src="https://www.freedcapitals.com/Images/pg3-img-1.svg" width={537} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
-          <h1 className="font-bold text-xl text-center mt-3 ">Maritime/Shipping</h1>
-          <p className="text-center mt-3 text-xl px-5 text-gray-400 ">The naval industry supports global commerce through its vital shipping sector that transports goods and people over great distances. Technological advancements improve safety and sustainability, preserving the efficiency and integrity of marine transportation crucial to the world economy.</p>
-        </div>
+            <div className="w-[30%] h-[37rem] mr-16 rounded-2xl shadow-2xl bg-slate-00">
+              <Image className='w-[100%] h-76'  src="https://www.freedcapitals.com/Images/pg3-img-1.svg" width={537} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+              <h1 className="font-bold text-2xl text-center mt-3 ">Maritime/Shipping</h1>
+              <p className="text-center mt-3 text-xl px-5 text-gray-400 ">The naval industry supports global commerce through its vital shipping sector that transports goods and people over great distances. Technological advancements improve safety and sustainability, preserving the efficiency and integrity of marine transportation crucial to the world economy.</p>
+            </div>
+      
 
         <div className="w-[30%] h-[32rem]">
 
