@@ -142,10 +142,12 @@ export default function Home() {
       </div>
      </div>
 
-     <div className="h-0.5 w-12 mx-auto bg-slate-500 rounded-md mt-12"></div>
+     <div className="h-0.5 w-12 mx-auto bg-slate-700 rounded-md mt-12"></div>
      <p className="text-center mt-3 text-2xl font-semibold tracking-wider text-gray-400">Our Solutions</p>
      <h1 className="text-center mt-4 font-semibold text-2xl  md:text-5xl md:leading-snug ">Our team is accessible from anywhere in the <br /> world.</h1>
      
+      <Image className=' lg:w-[28rem] lg:h-[32rem] w-[14rem] h-[16rem] mx-auto relative mt-4  lg:mt-20'  src="https://www.freedcapitals.com/Images/Group-39921.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+
     </main>
     
   )
