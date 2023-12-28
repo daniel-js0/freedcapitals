@@ -147,6 +147,7 @@ export default function Home() {
      <h1 className="text-center mt-4 font-semibold text-2xl  md:text-5xl md:leading-snug ">Our team is accessible from anywhere in the <br /> world.</h1>
      
       <Image className=' lg:w-[28rem] lg:h-[32rem] w-[14rem] h-[16rem] mx-auto relative mt-4  lg:mt-20'  src="https://www.freedcapitals.com/Images/Group-39921.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+      <h1 className="text-center mt-4 font-semibold text-2xl  md:text-5xl md:leading-snug ">Our team is accessible from anywhere in the <br /> world.</h1>
 
     </main>
     
