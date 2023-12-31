@@ -148,7 +148,7 @@ export default function Home() {
      
       <Image className=' lg:w-[78rem] lg:h-[42rem] w-[14rem] h-[16rem] mx-auto relative mt-4  lg:mt-20'  src="https://www.freedcapitals.com/Images/Group-39921.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
       
-      <div className=" relative mt-5 w-[100%] h-[44rem] bg-[#39B7B3] bg-opacity-25 ">
+      <div className=" relative mt-5 w-[100%] h-[74rem] bg-[#39B7B3] bg-opacity-25 ">
        
         <Image className='absolute end-0 '  src="https://www.freedcapitals.com/Images/pg5-bg-icon.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
         <Image className='absolute bottom-0 '  src="https://www.freedcapitals.com/Images/pg5-bg-icon-2.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
@@ -156,8 +156,8 @@ export default function Home() {
         <h1 className="text-center pt-20 font-semibold text-2xl  md:text-5xl md:leading-snug ">Our Latest Insights</h1>
         <p className="text-center px-52 mt-3 text-2xl font-semibold tracking-wider text-gray-400">Check out our "Insights" section for nuanced perspectives, valuable info, and expert ideas that promote constructive discourse.</p>
        
-        <div>
-          <Image className=''  src="https://www.freedcapitals.com/Images/final.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+        <div className="h-[49rem] w-[85%] mx-auto bg-slate-50">
+          <Image className='w-[100%]  bg-slate-300 mx-auto'  src="https://www.freedcapitals.com/Images/final.svg" width={27} height={910} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
      
      
         </div>
