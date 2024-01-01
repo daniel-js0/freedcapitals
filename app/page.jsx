@@ -163,7 +163,7 @@ export default function Home() {
           
           <p className=" text-center mt-2 text-2xl font-light px-12 text-gray-500">The contemporary business world is an ever-evolving landscape, one that necessitates adaptability and a penchant for innovation. In order to succeed amidst fierce competition, companies must remain abreast of trends and emerging technologies, continually seeking to refine their strategies and offerings. Failure to do so may result in stagnation, rendering businesses obsolete in an increasingly competitive marketplace. As such, it is imperative for organizations to remain agile and responsive to changing consumer demands, leveraging tools and resources to drive growth and maintain relevance in today's business climate.</p>
           <h1 className="text-end mt-5 text-2xl mr-24 font-semibold">Edmund <br /> Minimah</h1>
-          <p></p>
+          <p className="text-end mr-20 font-light">Managing Partner</p>
         </div>
 
       </div>
