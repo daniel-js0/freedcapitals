@@ -165,7 +165,9 @@ export default function Home() {
           <h1 className="text-end mt-5 text-2xl mr-24 font-semibold">Edmund <br /> Minimah</h1>
           <p className="text-end mr-20 font-light">Managing Partner</p>
         </div>
-
+        <div className="mt-16 h-12 w-32 mx-auto">
+          <button className=" h-12 w-44 border text-xl font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Know more</button>
+        </div>
       </div>
     </main>
     
