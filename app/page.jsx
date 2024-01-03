@@ -112,7 +112,7 @@ export default function Home() {
 
      <div className="mt-3 relative">
        <Image className='w-56 h-72 absolute'  src="https://www.freedcapitals.com/Images/pg3-bg-icon.svg" width={427} height={510} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
-       <h1 className="text-center mt-6 font-semibold text-2xl px-36 md:text-5xl md:leading-snug ">Our goal is to simplify your life and facilitate your progress, one step at a time.</h1>
+       <h1 className="text-center mt-6 font-semibold md:text-2xl md:px-36 md:text-5xl md:leading-snug ">Our goal is to simplify your life and facilitate your progress, one step at a time.</h1>
 
        <div className="flex justify-evenly mt-16 w-[100%] h-[50rem] bg-slate-00">
 
