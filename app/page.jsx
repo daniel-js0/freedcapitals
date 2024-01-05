@@ -173,7 +173,7 @@ export default function Home() {
           <button className=" h-12 w-44 border text-xl font-medium rounded-2xl text-[#39B7B3] border-[#39B7B3]">Know more</button>
         </div>
          <p className='font-bold mt-4 ml-2 text-white'>and</p>
-        
+         <p className='font-bold text-white'> text text and</p>
       </div>
     </main>
     
