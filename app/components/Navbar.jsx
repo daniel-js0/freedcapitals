@@ -41,7 +41,7 @@ const Navbar = () => {
                 </div>
 
                 <div className='flex flex-col'>
-                    <Link href="/" className='ml-16  text-lg font-light hover:text-[#39B7B3]' 
+                    <Link href="/industries" className='ml-16  text-lg font-light hover:text-[#39B7B3]' 
                     onMouseEnter={() => handleHover('indust')} onMouseLeave={() => handleHover('')}>
                         Industries
                     </Link>
