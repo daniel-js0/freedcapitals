@@ -13,7 +13,8 @@ const Industries = () => {
     
        <Image className=''  src="https://www.freedcapitals.com/Images/industry-1-1.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
 
-
+       <h1>Energy & Natural Resources</h1>
+       
     </main>
   )
 }
