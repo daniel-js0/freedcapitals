@@ -14,7 +14,10 @@ const Industries = () => {
        <Image className=''  src="https://www.freedcapitals.com/Images/industry-1-1.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
 
        <h1>Energy & Natural Resources</h1>
-       
+       <p>Alternative energy is important for society, but their limited supply is a challenge. Sustainable practices preserve resources for the future and balance economics with the environment. Innovative methods reduce waste and pollution for a sustainable future.</p>
+    
+       <Image className=''  src="https://www.freedcapitals.com/Images/tick-circle.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+    
     </main>
   )
 }
