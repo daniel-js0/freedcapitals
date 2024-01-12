@@ -18,6 +18,10 @@ const Industries = () => {
     
        <Image className=''  src="https://www.freedcapitals.com/Images/tick-circle.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
     
+       <h1 className='font-bold'>Renewable energy for sustainability</h1>
+
+       <p className=''>Crucial for our economy</p>
+    
     </main>
   )
 }
