@@ -13,9 +13,9 @@ const Industries = () => {
     
        <div className='h-[30rem] w-[39%] bg-slate-400 relative'>
           <Image className='h-[100%] w-[100%]'  src="https://www.freedcapitals.com/Images/industry-1-1.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
-            <div className='flex absolute top-2 h-6 w-[80%] bg-gray-100'>
-              <Image className='h-6 w-6'  src="https://www.freedcapitals.com/Images/tick-circle.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
-              <h1 className='font-bold'>Renewable energy for sustainability</h1>
+            <div className='flex absolute bottom-32 start-7 w-[85%] rounded-full bg-opacity-50 bg-gray-100'>
+              <Image className='h-8 w-8 mt-3 ml-5'  src="https://www.freedcapitals.com/Images/tick-circle.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+              <h1 className='font-semibold text-xl mt-3 ml-3'>Renewable energy for sustainability</h1>
             </div>
            <div className='flex  absolute bottom-8 h-16 start-7 w-[80%] rounded-full bg-opacity-50 bg-gray-100'>
              <Image className='h-8 w-8 mt-3 ml-5'  src="https://www.freedcapitals.com/Images/tick-circle.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  />  
