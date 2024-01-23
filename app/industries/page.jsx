@@ -71,7 +71,8 @@ const Industries = () => {
               <Image className='h-8 w-8 mt-3 ml-8'  src="https://www.freedcapitals.com/Images/tick-circle.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
               <h1 className='font-semibold text-[1.3rem] mt-3 ml-4 tracking-wide'>Critical to daily lives worldwide</h1>
             </div>
-          
+          <p>Oil & Gas
+The oil and gas industry affects global stability, but environmental and social concerns call for sustainability. Businesses and governments invest in renewable energy, but the industry still plays a role in balancing economic benefits with social and environmental responsibility. Clean energy is necessary to meet energy demands sustainably</p>
        </div>
       
      
