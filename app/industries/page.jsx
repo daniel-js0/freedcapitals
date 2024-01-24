@@ -73,6 +73,9 @@ const Industries = () => {
             </div>
           <p>Oil & Gas
 The oil and gas industry affects global stability, but environmental and social concerns call for sustainability. Businesses and governments invest in renewable energy, but the industry still plays a role in balancing economic benefits with social and environmental responsibility. Clean energy is necessary to meet energy demands sustainably</p>
+      
+      <p></p>
+      
        </div>
       
      
