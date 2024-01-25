@@ -74,7 +74,9 @@ const Industries = () => {
           <p>Oil & Gas
 The oil and gas industry affects global stability, but environmental and social concerns call for sustainability. Businesses and governments invest in renewable energy, but the industry still plays a role in balancing economic benefits with social and environmental responsibility. Clean energy is necessary to meet energy demands sustainably</p>
       
-      <p></p>
+      <p>Machinery and equipment play a vital role in many industries, allowing for increased productivity and efficiency. Proper maintenance and repair of these assets are crucial to ensuring maximum performance and longevity. It is important to prioritize investment in reliable and high-quality equipment to achieve optimal results.</p>
+        
+      <Image className='h-8 w-8 mt-3 ml-8'  src="https://www.freedcapitals.com/Images/industry1-6.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
       
        </div>
       
