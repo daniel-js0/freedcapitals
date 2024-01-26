@@ -77,7 +77,8 @@ The oil and gas industry affects global stability, but environmental and social 
       <p>Machinery and equipment play a vital role in many industries, allowing for increased productivity and efficiency. Proper maintenance and repair of these assets are crucial to ensuring maximum performance and longevity. It is important to prioritize investment in reliable and high-quality equipment to achieve optimal results.</p>
         
       <Image className='h-8 w-8 mt-3 ml-8'  src="https://www.freedcapitals.com/Images/industry1-6.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
-      
+      <p>
+Our Company offers an optimal solution to facilitate and accelerate the growth of your business</p>
        </div>
       
      
