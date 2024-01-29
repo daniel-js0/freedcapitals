@@ -40,7 +40,7 @@ const Industries = () => {
                 <p className='mt-5'>The integration of technology and media has revolutionized news, <br /> entertainment, and communication. However, privacy concerns, cyber threats, and digital literacy must be considered. A balanced approach that respects innovation, regulation, and education is necessary. Supporting diversity, sustainability, and creativity benefits all stakeholders.</p>
              </div>
 
-        <div className='h-[30rem] w-[40%] relative'>
+        <div className='h-[30rem] w-[47%] relative'>
             <Image className='h-[100%] w-[100%]'  src="https://www.freedcapitals.com/Images/industry1-2.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
             <div className='flex  absolute bottom-8 h-16 start-20 w-[70%] rounded-full bg-opacity-50 bg-gray-100'>
               <Image className='h-8 w-8 mt-3 ml-8'  src="https://www.freedcapitals.com/Images/tick-circle.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  />  
@@ -57,7 +57,7 @@ const Industries = () => {
 
 
        
-       <div className='h-[30rem] w-[39%] bg-slate-400 relative'>
+       <div className='h-[30rem] w-[39%] bg-slate-400 absolute'>
           <Image className='h-[100%] w-[100%]'  src="https://www.freedcapitals.com/Images/industry-1-3.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
             <div className='flex absolute bottom-32 h-24 start-7 w-[85%] rounded-full bg-opacity-50 bg-gray-100'>
               <Image className='h-8 w-8 mt-3 ml-8'  src="https://www.freedcapitals.com/Images/tick-circle.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
