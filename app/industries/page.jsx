@@ -33,8 +33,8 @@ const Industries = () => {
 
 
  
-     <div className='flex justify-evenly'>
-            <div className=' mt-16 p-10'>
+     <div className='flex justify-evenly bg-slate-500'>
+            <div className='w-[35%] h-[50%] mt-16 p-10'>
                 <h1 className=' font-semibold text-2xl text-[#39B7B3]'>IT & Media</h1>
 
                 <p className='mt-5'>The integration of technology and media has revolutionized news, <br /> entertainment, and communication. However, privacy concerns, cyber threats, and digital literacy must be considered. A balanced approach that respects innovation, regulation, and education is necessary. Supporting diversity, sustainability, and creativity benefits all stakeholders.</p>
@@ -51,6 +51,46 @@ const Industries = () => {
      </div>
      
       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
