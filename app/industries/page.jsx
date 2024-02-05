@@ -33,7 +33,7 @@ const Industries = () => {
 
 
  
-     <div className='flex justify-evenly bg-slate-500'>
+     <div className='flex justify-evenly'>
             <div className='w-[35%] h-[50%] mt-16 p-10'>
                 <h1 className=' font-semibold text-2xl text-[#39B7B3]'>IT & Media</h1>
 
@@ -50,8 +50,30 @@ const Industries = () => {
        
      </div>
      
-      
+      <div className='flex justify-evenly'>
 
+
+       <div className='h-[30rem] w-[39%] relative'>
+          <Image className='h-[100%] w-[100%]'  src="https://www.freedcapitals.com/Images/industry-1-3.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+            <div className='flex absolute bottom-32 h-24 start-7 w-[85%] rounded-full bg-opacity-50 bg-gray-100'>
+              <Image className='h-8 w-8 mt-3 ml-8'  src="https://www.freedcapitals.com/Images/tick-circle.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+              <h1 className='font-semibold text-[1.3rem] mt-3 ml-4 tracking-wide'>Accounts for a significant share of GDP,</h1>
+            </div>
+
+            <div className='flex absolute bottom-1 h-24 start-7 w-[85%] rounded-full bg-opacity-50 bg-gray-100'>
+              <Image className='h-8 w-8 mt-3 ml-8'  src="https://www.freedcapitals.com/Images/tick-circle.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+              <h1 className='font-semibold text-[1.3rem] mt-3 ml-4 tracking-wide'>Continued investment in the sector is imperative to maximize its benefits</h1>
+            </div>
+       </div>
+
+        <div className='w-[35%] h-[50%] mt-16 p-10'>
+                <h1 className=' font-semibold text-2xl text-[#39B7B3]'>Oil & Gas</h1>
+
+                <p className='mt-5'>The oil and gas industry affects global stability, but environmental and social concerns call for sustainability. Businesses and governments invest in renewable energy, but the industry still plays a role in balancing economic benefits with social and environmental responsibility. Clean energy is necessary to meet energy demands sustainably.</p>
+       </div>
+
+      </div>
+    
 
 
 
@@ -97,16 +119,9 @@ const Industries = () => {
 
 
        
-       <div className='h-[30rem] w-[39%] bg-slate-400 relative'>
-          <Image className='h-[100%] w-[100%]'  src="https://www.freedcapitals.com/Images/industry-1-3.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
-            <div className='flex absolute bottom-32 h-24 start-7 w-[85%] rounded-full bg-opacity-50 bg-gray-100'>
-              <Image className='h-8 w-8 mt-3 ml-8'  src="https://www.freedcapitals.com/Images/tick-circle.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
-              <h1 className='font-semibold text-[1.3rem] mt-3 ml-4 tracking-wide'>Accounts for a significant share of GDP,.</h1>
-            </div>
-          
-       </div>
+       
       
-      <div className='h-[30rem] w-[39%] bg-slate-400 relative'>
+      <div className='h-[30rem] w-[39%] bg-slate-400 relative mt-2'>
           <Image className='h-[100%] w-[100%]'  src="https://www.freedcapitals.com/Images/industry1-4.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
             <div className='flex absolute bottom-32 h-24 start-7 w-[85%] rounded-full bg-opacity-50 bg-gray-100'>
               <Image className='h-8 w-8 mt-3 ml-8'  src="https://www.freedcapitals.com/Images/tick-circle.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
