@@ -37,14 +37,14 @@ const Industries = () => {
             <div className='w-[35%] h-[50%] mt-16 p-10'>
                 <h1 className=' font-semibold text-2xl text-[#39B7B3]'>IT & Media</h1>
 
-                <p className='mt-5'>The integration of technology and media has revolutionized news, <br /> entertainment, and communication. However, privacy concerns, cyber threats, and digital literacy must be considered. A balanced approach that respects innovation, regulation, and education is necessary. Supporting diversity, sustainability, and creativity benefits all stakeholders.</p>
+                <p className='mt-5'>The integration of technology and media has revolutionized news, entertainment, and communication. However, privacy concerns, cyber threats, and digital literacy must be considered. A balanced approach that respects innovation, regulation, and education is necessary. Supporting diversity, sustainability, and creativity benefits all stakeholders.</p>
              </div>
 
         <div className='h-[30rem] w-[47%] relative'>
             <Image className='h-[100%] w-[100%]'  src="https://www.freedcapitals.com/Images/industry1-2.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
-            <div className='flex  absolute bottom-8 h-16 start-20 w-[70%] rounded-full bg-opacity-50 bg-gray-100'>
-              <Image className='h-8 w-8 mt-3 ml-8'  src="https://www.freedcapitals.com/Images/tick-circle.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  />  
-              <h1 className='font-semibold text-[1.3rem] mt-3 ml-4 tracking-wide'>Revolutionizing the way we process, interpret, and share information.</h1>
+            <div className='flex  absolute bottom-8 h-16 start-20 w-[79%] rounded-full bg-opacity-50 bg-gray-100'>
+              <Image className='h-8 w-8 mt-3 ml-4'  src="https://www.freedcapitals.com/Images/tick-circle.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  />  
+              <h1 className='font-semibold text-[1.1rem] mt-3 ml-4 tracking-wide'>Revolutionizing the way we process, interpret, and share information.</h1>
             </div>
         </div>
        
