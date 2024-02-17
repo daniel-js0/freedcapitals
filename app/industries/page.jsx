@@ -11,8 +11,7 @@ const Industries = () => {
       </div>
        <Image className=''  src="https://www.freedcapitals.com/Images/Group.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
     
-     <div className='flex justify-evenly'>
-       
+     <div className='flex justify-evenly'>   
         <div className='h-[30rem] w-[47%] relative'>
             <Image className='h-[100%] w-[100%]'  src="https://www.freedcapitals.com/Images/industry-1-1.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
               <div className='flex absolute bottom-32 h-16 start-20 w-[75%] rounded-full bg-opacity-50 bg-gray-100'>
@@ -31,8 +30,6 @@ const Industries = () => {
         </div>
      </div>
 
-
- 
      <div className='flex justify-evenly'>
             <div className='w-[35%] h-[50%] mt-16 p-10'>
                 <h1 className=' font-semibold text-2xl text-[#39B7B3]'>IT & Media</h1>
@@ -90,6 +87,25 @@ const Industries = () => {
        </div>
        
      </div>
+    
+    
+      <div className='flex justify-evenly'>
+       <div className='h-[30rem] w-[39%] relative'>
+          <Image className='h-[100%] w-[100%]'  src="https://www.freedcapitals.com/Images/industry1-5.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  />
+
+            <div className='flex absolute bottom-1 h-24 start-7 w-[85%] rounded-full bg-opacity-50 bg-gray-100'>
+              <Image className='h-8 w-8 mt-3 ml-8'  src="https://www.freedcapitals.com/Images/tick-circle.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
+              <h1 className='font-semibold text-[1.3rem] mt-3 ml-4 tracking-wide'>“You don't build a business, you build people, then people build the business."-Zig Ziglar</h1>
+            </div>
+       </div>
+
+        <div className='w-[35%] h-[50%] mt-16 p-10'>
+                <h1 className=' font-semibold text-2xl text-[#39B7B3]'>People & Organization</h1>
+
+                <p className='mt-5'>The relations between people and organizations are an essential aspect of society. We strive to build synergy between the two parts that are critical for the development and progress of any nation.</p>
+       </div>
+
+      </div>
 
      
      
