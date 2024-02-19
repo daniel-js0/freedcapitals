@@ -111,7 +111,7 @@ const Industries = () => {
             <div className='w-[35%] h-[50%] mt-16 p-10'>
                 <h1 className=' font-semibold text-2xl text-[#39B7B3]'>Retail</h1>
 
-                <p className='mt-5'>Our clients are thrilled with our new technologically advanced consumer product service. Our experience We invite you to experience the innovation and excellence that sets us apart from our competitors.</p>
+                <p className='mt-5'>The contemporary retail industry embodies innovation and customer engagement, with a focus on enhancing the shopping experience. Through a combination of technology-driven convenience and personalized interactions, we engage our clients in the retail industry who are ever evolving to meet their consumer needs and surpass their expectations</p>
              </div>
 
       
