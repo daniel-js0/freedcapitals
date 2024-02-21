@@ -115,7 +115,7 @@ const Industries = () => {
              </div>
 
       
-      <div className='h-[30rem] w-[39%] bg-slate-400 relative mt-2'>
+      <div className='h-[30rem] w-[39%] bg-slate-400 absolute mt-2'>
           <Image className='h-[100%] w-[100%]'  src="https://www.freedcapitals.com/Images/industry1-4.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
             <div className='flex absolute bottom-32 h-24 start-7 w-[85%] rounded-full bg-opacity-50 bg-gray-100'>
               <Image className='h-8 w-8 mt-3 ml-8'  src="https://www.freedcapitals.com/Images/tick-circle.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
