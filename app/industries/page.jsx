@@ -140,7 +140,7 @@ const Industries = () => {
         <div className='w-[35%] h-[50%] mt-16 p-10'>
                 <h1 className=' font-semibold text-2xl text-[#39B7B3]'>Machinery & Equipment</h1>
 
-                <p className='mt-5'>The relations between people and organizations are an essential aspect of society. We strive to build synergy between the two parts that are critical for the development and progress of any nation.</p>
+                <p className='mt-5'>Machinery and equipment play a vital role in many industries, allowing for increased productivity and efficiency. Proper maintenance and repair of these assets are crucial to ensuring maximum performance and longevity. It is important to prioritize investment in reliable and high-quality equipment to achieve optimal results.</p>
        </div>
 
       </div>
