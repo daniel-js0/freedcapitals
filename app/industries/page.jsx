@@ -137,7 +137,7 @@ const Industries = () => {
             </div>
             <div className='flex absolute bottom-1 h-24 start-7 w-[85%] rounded-full bg-opacity-50 bg-gray-100'>
               <Image className='h-8 w-8 mt-3 ml-8'  src="https://www.freedcapitals.com/Images/tick-circle.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  /> 
-              <h1 className='font-semibold text-[1.3rem] mt-3 ml-4 tracking-wide'>Essential components in manufacturing and industrial operations.</h1>
+              <h1 className='font-semibold text-[1.3rem] mt-3 ml-4 tracking-wide'>Prioritizing them ensures optimal operational efficiency and safety.</h1>
             </div>
        </div>
 
