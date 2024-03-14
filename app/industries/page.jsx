@@ -128,7 +128,7 @@ const Industries = () => {
      </div>
 
       <div className='flex justify-evenly'>
-       <div className='h-[30rem] w-[39%] absolute'>
+       <div className='h-[30rem] w-[39%] relative'>
           <Image className='h-[100%] w-[100%]'  src="https://www.freedcapitals.com/Images/industry1-7.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  />
 
             <div className='flex absolute bottom-32 h-24 start-7 w-[85%] rounded-full bg-opacity-50 bg-gray-100'>
