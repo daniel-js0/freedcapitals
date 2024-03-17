@@ -128,7 +128,7 @@ const Industries = () => {
      </div>
 
       <div className='flex justify-evenly'>
-       <div className='h-[30rem] w-[39%] relative'>
+       <div className='h-[30rem] w-[39%] absolute'>
           <Image className='h-[100%] w-[100%]'  src="https://www.freedcapitals.com/Images/industry1-7.svg" width={227} height={210} quality={100} alt="freedcapital logo" placeholder="empty"  />
 
             <div className='flex absolute bottom-32 h-24 start-7 w-[85%] rounded-full bg-opacity-50 bg-gray-100'>
@@ -142,6 +142,7 @@ const Industries = () => {
        </div>
 
         <div className='w-[35%] h-[50%] mt-16 p-10'>
+          
                 <h1 className=' font-semibold text-2xl text-[#39B7B3]'>Machinery & Equipment</h1>
 
                 <p className='mt-5'>Machinery and equipment play a vital role in many industries, allowing for increased productivity and efficiency. Proper maintenance and repair of these assets are crucial to ensuring maximum performance and longevity. It is important to prioritize investment in reliable and high-quality equipment to achieve optimal results.</p>
