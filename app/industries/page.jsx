@@ -154,7 +154,7 @@ const Industries = () => {
             <div className='w-[35%] h-[50%] mt-16 p-10'>
                 <h1 className=' font-semibold text-2xl text-[#39B7B3]'>Logistics Operation</h1>
 
-                <p className='mt-5'>The contemporary retail industry embodies innovation and customer engagement, with a focus on enhancing the shopping experience. Through a combination of technology-driven convenience and personalized interactions, we engage our clients in the retail industry who are ever evolving to meet their consumer needs and surpass their expectations</p>
+                <p className='mt-5'>"The proficiency of our Logistics operation is paramount to our organization's success. We adhere to industry best practices and optimize our supply chain to ensure timely delivery and cost efficiency. Our commitment to exceptional service elevates our clients' experience and builds lasting partnerships."</p>
              </div>
 
       
@@ -170,7 +170,7 @@ const Industries = () => {
      </div>
     
 
-     {/* "The proficiency of our Logistics operation is paramount to our organization's success. We adhere to industry best practices and optimize our supply chain to ensure timely delivery and cost efficiency. Our commitment to exceptional service elevates our clients' experience and builds lasting partnerships." */}
+     
      
 
 
